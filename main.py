@@ -1,35 +1,7 @@
 import random
 import requests 
 
-list_images = [
-    'https://solindek.tech/avatars/avatar1.jpg',
-    'https://solindek.tech/avatars/avatar10.jpg',
-    'https://solindek.tech/avatars/avatar11.jpg',
-    'https://solindek.tech/avatars/avatar12.jpg',
-    'https://solindek.tech/avatars/avatar13.jpg',
-    'https://solindek.tech/avatars/avatar14.jpg',
-    'https://solindek.tech/avatars/avatar15.jpg',
-    'https://solindek.tech/avatars/avatar16.jpg',
-    'https://solindek.tech/avatars/avatar17.jpg',
-    'https://solindek.tech/avatars/avatar18.jpg',
-    'https://solindek.tech/avatars/avatar19.jpg',
-    'https://solindek.tech/avatars/avatar2.jpg',
-    'https://solindek.tech/avatars/avatar20.jpg',
-    'https://solindek.tech/avatars/avatar21.jpg',
-    'https://solindek.tech/avatars/avatar22.jpg',
-    'https://solindek.tech/avatars/avatar22.png',
-    'https://solindek.tech/avatars/avatar23.jpg',
-    'https://solindek.tech/avatars/avatar24.jpg',
-    'https://solindek.tech/avatars/avatar25.jpg',
-    'https://solindek.tech/avatars/avatar3.jpg',
-    'https://solindek.tech/avatars/avatar4.jpg',
-    'https://solindek.tech/avatars/avatar5.jpg',
-    'https://solindek.tech/avatars/avatar6.jpg',
-    'https://solindek.tech/avatars/avatar6.jpg',
-    'https://solindek.tech/avatars/avatar7.jpg',
-    'https://solindek.tech/avatars/avatar8.jpg',
-    'https://solindek.tech/avatars/avatar9.jpg',
-]
+list_images = [f'https://solindek.tech/avatars/avatar{_}.jpg' for _ in range(25)]
 
 Url = random.choice(list_images)
 
