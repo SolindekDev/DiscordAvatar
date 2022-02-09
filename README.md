@@ -1,2 +1,3 @@
 # DiscordAvatar
 Program written in Python that's random generate some avatars for your discord account...
+# How to use
