@@ -1,7 +1,7 @@
 import random
 import requests 
 
-list_images = [f'https://solindek.tech/avatars/avatar{_}.jpg' for _ in range(25)]
+list_images = [f'https://solindek.tech/avatars/avatar{_}.jpg' for _ in range(26)]
 
 Url = random.choice(list_images)
 
